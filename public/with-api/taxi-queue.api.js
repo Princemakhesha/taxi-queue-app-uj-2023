@@ -54,7 +54,7 @@ document.addEventListener('alpine:init', () => {
 						.post('/api/taxi/depart')
 						.then(() => {
 							this.taxiQueueLength();
-							this.queueLength(); // Update people queue length after taxi departure
+							this.queueLength();
 						});
 				}
 			}
